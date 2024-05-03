@@ -123,7 +123,7 @@ button a{
     color: black;
 }
 .card{
-    background-color: #f2e8e7;
+    background-color:rgba(0,0,0,0);
     width: 400px;
     padding: 22px 30px;
     border-radius: 5px;
@@ -255,5 +255,11 @@ label{
 @media screen and (max-width:700px) {
     .main-content{
         flex-direction: column;
+        align-items: center;
+    }
+    .details{
+        position: relative;
+        width: 75%;
+        left: 5rem;
     }
 }
